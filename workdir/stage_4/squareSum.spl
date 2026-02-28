@@ -1,0 +1,12 @@
+alias counter R0;
+alias sum R1;
+alias p R2;
+counter=0;
+sum=0;
+while(counter<=20)do
+p=counter*counter;
+sum=sum+p;
+counter=counter+1;
+endwhile;
+print sum;
+
